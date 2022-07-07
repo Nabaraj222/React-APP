@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import "bootstrap/dist/css/bootstrap.min.css";
+import React, { component } from "react";
 import './App.css';
 
 function App() {
