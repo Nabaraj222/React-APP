@@ -8,7 +8,7 @@ class PersonDataService {
     return http.get(`/persons/${id}`);
   }
   create(data) {
-    return http.post("/persons", data);
+    return http.post("/persons/AddPerson", data);
   }
   update(id, data) {
     return http.put(`/persons/${id}`, data);

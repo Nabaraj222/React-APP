@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using React_API.IdentityAuth;
 using React_API.Models;
@@ -7,7 +8,7 @@ using System.Xml;
 
 namespace React_API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/persons")]
     [ApiController]
     public class PersonController : ControllerBase
     {
@@ -21,7 +22,7 @@ namespace React_API.Controllers
 
         //Add Person  
         [HttpPost("AddPerson")]
-        public async Task<Object> AddPerson([FromBody] Person person)
+        public async Task<Object> AddPerson(Person person)
         {
             Response response = new Response();
             try
