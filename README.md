@@ -1,8 +1,8 @@
-# React-Demo-APP
+# React-APP
 
 Steps to install/Setup:
 1. Clone the repository into your workstation 
-2. Open React-API project into visual studio 2022
+2. Open React-APP project into visual studio 2022
 3. Run the project
 4. Go to Nuget Package Manager and type 'update-database' then hit enter
 5. Now database will be created
@@ -13,3 +13,5 @@ Steps to install/Setup:
 10. Now login with the user which is created just before
 11. Authorize that user with Bearer 'token'
 12. Create a new person once the user is authorized
+13. Client side library are written in React
+14. Go to ClientApp folder then go to src folder, there you will find all the react page libraries
