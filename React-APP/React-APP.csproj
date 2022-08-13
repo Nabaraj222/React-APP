@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>React_API</RootNamespace>
+    <RootNamespace>React_APP</RootNamespace>
     <OutputType>Exe</OutputType>
   </PropertyGroup>
 
